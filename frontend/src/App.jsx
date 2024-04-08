@@ -1,5 +1,6 @@
 
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Hero from './components/Hero'
 import { Join } from './components/Join/Join'
 import Plans from './components/Plans/Plans'
@@ -17,6 +18,7 @@ function App() {
       <Plans />
       <Testimonials />
       <Join />
+      <Footer />
     </div>
   )
 }
